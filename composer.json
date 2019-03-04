@@ -1,0 +1,13 @@
+{
+    "name": "erre2web/nexmophp",
+    "description": "Client interface for curl request at Nexmo Messages and Dispatch services.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mribera-erre2web",
+            "email": "marco.ribera@erre2web.it"
+        }
+    ],
+    "require": {}
+}
