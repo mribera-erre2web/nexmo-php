@@ -16,12 +16,12 @@
         "phpunit/phpunit": "^7.0"
     },
     "autoload": {
-        "psr-0": {
-            "Client\\" : "src/"
+        "psr-4": {
+            "NexmoPhp\\Client\\" : "src/Client/"
         }
     },
     "autoload-dev": {
-        "psr-0": {
+        "psr-4": {
             "NexmoPhp\\Client\\Tests\\": "test/"
         }
     }

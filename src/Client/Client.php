@@ -1,6 +1,6 @@
 <?php
 
-namespace Client;
+namespace NexmoPhp\Client;
 
 class Client
 {

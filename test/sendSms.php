@@ -1,4 +1,11 @@
 <?php
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use NexmoPhp\Client\Credentials;
+use NexmoPhp\Client\Client;
+use NexmoPhp\Client\Messages;
+
 $credentials = new Credentials("APIKey", "APISecret");
 
 $client = new Client($credentials);
@@ -19,4 +26,4 @@ $message->setFrom("NUMBER"); //set from number
 $message->setTo("NUMBER"); //set to number
 
 /*DELIVER*/
-$client->messages($message); //set endpoint messages and send
+var_dump($client->messages($message)); //set endpoint messages and send
