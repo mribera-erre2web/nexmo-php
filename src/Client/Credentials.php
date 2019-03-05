@@ -1,6 +1,6 @@
 <?php
 
-namespace NexmoPhp\Client;
+namespace Client;
 
 class Credentials
 {

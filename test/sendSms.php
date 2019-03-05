@@ -1,6 +1,4 @@
 <?php
-namespace NexmoPhp\Client\Tests;
-
 $credentials = new Credentials("APIKey", "APISecret");
 
 $client = new Client($credentials);
